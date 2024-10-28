@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Authentification</title>
+    </head>
+    <body>
+        <h1>Formulaire de commande</h1>
+        <p>Les informations obligatoires sont précédées par *.</p>
+        <fieldset>
+            <legend><b>Information de contact</b></legend>
+            <ol>
+                <form method="get">
+                    <span>Civilité*</span>
+                    <select name="Civilité" id="Civilitéid">
+                        <option value="">--Choose an option--</option>
+                        <option>
+                            <option value="Homme">Homme</option>
+                            <option value="Femme">Femme</option>
+                            <option value="Trans">Trans</option>
+                        </option>
+                    </select>
+                </ol>
+            <ol>
+                <form method="get">
+                    <span>Nom *</span>
+                    <input type="text">
+                </ol>
+            <ol>
+                <form method="get">
+                    <span>Prénom*</span>
+                    <input type="text">
+                </ol>
+            <ol>
+                <form method="get">
+                    <span>Adresse mail*</span>
+                    <input type="email">
+                </ol>
+            <ol>
+                <form method="get">
+                    <span>Téléphone*</span>
+                    <input type="tel">
+            </ol>        
+        </form>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend><b>Votre commande</b></legend>
+            <ol>
+                <form method="get">
+                    <span>Calzone:</span>
+                    <input type="number" name="Calzone">
+                </ol>
+            <ol>
+                <form method="get">
+                    <span>Reine:</span>
+                    <input type="number" name="Reine">
+                </ol>
+            <ol>
+                <form method="get">
+                    <span>4 Fromages:</span>
+                    <input type="number" name="4 Fromages">
+                </ol>
+            <ol>
+                <form method="get">
+                    <span>Neptune:</span>
+                    <input type="number" name="Neptune">
+            </ol>
+            <ol>
+                <form method="get">
+                    <span>Hawaienne:</span>
+                    <input type="number" name="Hawaienne">
+            </ol>    
+            <br>
+            <ol>
+                <form method="get">
+                    <span>Instruction supplémentaire:</span>
+                    <textarea rows="2" cols="20"></textarea>                    
+            </ol>             
+        </form>
+        </fieldset>
+        <br>
+        <button type="submit">Valider et payer la commande</button>
+
+
+        
+    </body>
+</html>
